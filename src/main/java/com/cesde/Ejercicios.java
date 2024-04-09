@@ -40,7 +40,11 @@ public class Ejercicios {
      */
     public String ejercicio2(double calificacion) {
        // Implementar solución
-        return "";
+       if (calificacion >= 3.5) {
+        return "¡Felicidades! Usted ha aprobado el examen.";
+      } else {
+        return "Lo siento, usted ha reprobado el examen.";
+      }
     }
 
     // ----------------------------------------------------------------------------------------
@@ -57,7 +61,7 @@ public class Ejercicios {
      */
     public double ejercicio3(double precio) {
         // Implementar solución
-        return 0;
+        return " ";
     }
 
     // ----------------------------------------------------------------------------------------
