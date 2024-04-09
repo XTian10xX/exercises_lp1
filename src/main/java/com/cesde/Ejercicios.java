@@ -114,6 +114,12 @@ public class Ejercicios {
      */
     public int ejercicio5(int num1, int num2, int num3) {
         // Implementar solución
-        return 0;
+        if (num1 < num2 && num1 < num3) {
+            return num1;
+          } else if (num2 < num1 && num2 < num3) {
+            return num2;
+          } else {
+            return num3;
+          }
     }
 }
