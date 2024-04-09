@@ -61,7 +61,11 @@ public class Ejercicios {
      */
     public double ejercicio3(double precio) {
         // Implementar solución
-        return " ";
+        if (precio >= 50000.0) {
+            return (precio * 0.10);
+          } else {
+            return (precio);
+          }
     }
 
     // ----------------------------------------------------------------------------------------
