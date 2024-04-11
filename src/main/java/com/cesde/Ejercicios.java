@@ -97,7 +97,19 @@ public class Ejercicios {
     public String ejercicio4(int tipoFigura, double ladoCuadrado, double baseTriangulo, double alturaTriangulo,
             double radioCirculo) {
         // Implementar solución
-        return "";
+        switch (tipoFigura) {
+          case 1:
+            return "El área del cuadrado es: " + (ladoCuadrado * ladoCuadrado);
+    
+          case 2:
+            return "El área del triángulo es: " + (baseTriangulo * alturaTriangulo / 2);
+    
+          case 3:
+            return "El área del círculo es: " + (Math.PI * radioCirculo * radioCirculo);
+    
+          default:
+            return "Tipo de figura no válida.";
+        }
     }
 
     // ----------------------------------------------------------------------------------------
